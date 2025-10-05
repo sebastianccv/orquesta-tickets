@@ -1,0 +1,3 @@
+# Sistema de Boletos - Orquesta Sinfónica Nacional de Bolivia
+
+¡Hola, Los Pequeños! Este repo es para nuestro sistema de boletos online/presencial con asientos y QR. Usaremos Git para colaborar. Instrucciones pronto...
