@@ -34,9 +34,3 @@
 - Sincroniza: `git pull origin main` antes
 - Usa GitLens en VS Code
 - Issues: crea en GitHub
-
-## Autenticación
-
-- Usa `sebastianccv` como username
-- Usa contraseña de GitHub en `git push/pull`
-- Guarda credenciales: `git config --global credential.helper wincred`
