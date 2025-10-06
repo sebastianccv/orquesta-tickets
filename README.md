@@ -35,6 +35,8 @@
 - Usa GitLens en VS Code
 - Issues: crea en GitHub
 
-## Para seguir con el documento
+## Autenticación
 
-- Usar la rama "guia"
+- Usa `sebastianccv` como username
+- Usa contraseña de GitHub en `git push/pull`
+- Guarda credenciales: `git config --global credential.helper wincred`
