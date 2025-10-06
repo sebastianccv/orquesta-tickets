@@ -34,3 +34,5 @@
 - Sincroniza: `git pull origin main` antes
 - Usa GitLens en VS Code
 - Issues: crea en GitHub
+
+# Para ir informando a los demas sobre su avance, usar la rama guia
