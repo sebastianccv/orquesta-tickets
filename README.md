@@ -36,3 +36,18 @@
 - Issues: crea en GitHub
 
 # Para ir informando a los demas sobre su avance, usar la rama guia
+
+## Estructura de Carpetas
+
+- **`src/`**: Código backend (Python/FastAPI).
+  - **`core/`**: Lógica compartida (configuraciones, utilidades, conexión DB/Redis, logging).
+  - **`tickets/`**: Gestión de boletos (compra, reserva, validación).
+  - **`payments/`**: Procesamiento de pagos (Stripe, PagoEfectivo, etc.).
+  - **`events/`**: Gestión de eventos (fechas, asientos, precios).
+  - **`users/`**: Autenticación y roles (clientes vs empleados/admin).
+  - **`notifications/`**: Envío de emails, push y QR.
+  - **`admin/`**: Funcionalidad para empleados (ventas presenciales, reportes).
+- **`frontend-web/`**: Código Next.js para web (clientes y panel admin).
+- **`mobile-app/`**: Código Flutter para app móvil (clientes: QR, eventos).
+- **`migrations/`**: Archivos Alembic para cambios en base de datos (PostgreSQL).
+- **`tests/`**: Pruebas unitarias (Pytest) y E2E (Cypress).
